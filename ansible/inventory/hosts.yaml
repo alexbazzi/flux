@@ -1,0 +1,14 @@
+---
+kubernetes:
+  children:
+    master:
+      hosts:
+        theseus:
+          ansible_user: xbazzi
+          ansible_host: 10.0.0.71
+        heracles:
+          ansible_user: xbazzi
+          ansible_host: 10.0.0.51
+        perseus:
+          ansible_user: xbazzi
+          ansible_host: 10.0.0.31
